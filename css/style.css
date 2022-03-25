@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+@media only screen and (max-width: 768px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* display: flex; */
+}
+
+body{
+    
+    background: #ddd;
+    font-family: 'Montserrat', sans-serif;
+    
+    
+}
+
+
+
+.text-primary{
+    color: #FF1493
+}
+
+.text-primary-2{
+    color: #49C1A2;
+}
+
+.lead{
+    font-size: 20px;
+}
+
+#header{
+    display: flex;
+}
+
+#nav-bar{  
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+        
+}
+
+#nav-bar a{
+    color: #fff;
+}
+
+#nav-bar .logo{
+    align-self: flex-start;
+    width: 80px;
+    margin-left: 20px;
+}
+
+#nav-bar ul{
+    float: right;
+    list-style: none;
+    margin-right: 50px;
+}
+
+#nav-bar ul li{
+    float: left;
+}
+
+#nav-bar ul li a{
+    display: block;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+#showcase{
+    background: rgba(189, 235, 239, 0.5);
+    height: 600px;
+    width: 100%;
+    margin: 10px;
+    border-radius: 12px;
+}
+
+#showcase .showcase-content{
+    color: #fff;
+    text-align: center;
+    padding-top: 170px;
+}
+
+#showcase .showcase-content h1{
+    font-size: 60px;
+    line-height: 1.2em;
+}
+
+#showcase .showcase-content p{
+    padding-bottom: 20px;
+    line-height: 1.7em;
+}
+
+
+
+#main{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    
+}
+
+#title{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 50px;
+}
+
+#video{
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 30px;
+    border-radius: 5px;
+    
+}
+
+#img-caption{
+    text-align: center;
+    font-family: "Comfortaa", sans-serif;
+    font-style: italic;
+    padding-top: 5px;
+
+    
+}
+
+#first-paragraph{
+    padding: 5px 10px 10px;
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+}
+
+#tribute-info{
+    margin-top: 10px;
+    padding: 5px 10px 10px;
+    /* background: #f4f4f4; */
+    background: rgba(189, 235, 239, 0.5);
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    
+}
+
+#main a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #49C1A2;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.container{
+    max-width: 370px;
+     
+    float: right;
+    
+    
+}
+
+.form-wrap{
+    background: #fff;
+    padding: 15px 20px;
+    margin: 10px;
+    
+}
+.form-wrap .form-group{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.form-wrap h1, 
+.form-wrap p{
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+.form-wrap .form-group label{
+    display: block;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    color: #666;
+}
+.form-wrap .form-group input{
+    border-radius: 5px;
+    border: #ddd 1px solid;
+    width: 100%;
+    padding: 10px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline-color: #FF1493;
+}
+
+.form-wrap button {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    background-color: #FF69B4;
+    border-radius: 5px;
+    border-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    width: 89%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form-wrap button:hover {
+
+    cursor: pointer;
+    background: #FF1493;
+  }
+
+.products{
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    display:inline-flex;
+    flex-direction: column;
+    border-radius: 15px;
+    /* block-size: auto; */        
+    
+}
+.clr{
+    clear: both;
+}
+
+#main-footer a{
+    text-decoration: none;
+    color: #FF1493;
+}
+#main-footer{
+    text-align: center;
+    background: #444;
+    color: #fff;
+    padding: 20px;
+}

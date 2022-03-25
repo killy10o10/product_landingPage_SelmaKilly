@@ -4,12 +4,84 @@
     <meta charset="UTF-8">
     <title></title>
     <link rel="stylesheet" href="css/style.css">
+    <link
+    href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"/>
   </head>
 
   <body>
+    <header id="header">
+      <nav id="nav-bar">
+          <div class="header-container">
+              <a href="index.html"><img src="/img/selma_logo.png" id="header-img" class="logo"></a>
+              <ul>
+                  <li><a class="nav-link" href="index.html">Home</a></li>
+                 <button><li><a class="nav-link" href="#about">About</a></li></button>
+                  <li><a class="nav-link" href="#products">Products</a></li>
+              </ul>
+          </div>
+      </nav>
+      <div id="showcase">
+          <div class="header-container">
+              <div class="showcase-content">
+                  <h1> <span class="text-primary"> Drink</span> With Style</h1>
+                  <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam totam, animi adipisci expedita ab laboriosam.</p>
+              </div>
+          </div>
+      </div>
+      </header>
+    <main id="main">
+      <h1 id="title">Quality <span class="text-primary-2"> Thermal Bottles</span></h1>
+      <div id="about"><video src="/img/video.mp4" alt="product-video" id="video" controls></video>
+      <div class="caption" >
+       <p id="img-caption">Our catalogue of premium thermal flasks and cups</p></div><div class="tribute">
+       <p id="tribute-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid voluptatem, facere magnam eos soluta ex est velit alias voluptates vitae hic repellat porro neque, cupiditate modi aperiam architecto quo exercitationem!
+       Assumenda, amet omnis voluptatem, deleniti placeat doloremque vitae unde, beatae asperiores pariatur eius tempore error sed ab maxime corporis maiores iure distinctio rem est autem. Excepturi quo tempora mollitia optio! <p id="first-paragraph">
+       Tempora quam aliquam hic? Et eum corrupti eaque consequuntur numquam doloribus vel quam illum iusto molestiae reiciendis alias eos enim aliquid quod harum tempore veritatis ea, tenetur fugit officia repudiandae.
+       Quae, maiores numquam repudiandae ipsam quos nihil obcaecati vel asperiores laboriosam ex soluta, et adipisci enim ducimus at. Beatae dolore iste cupiditate saepe magni quo neque voluptate perferendis repellendus doloribus.</p>
+      <p id="tribute-info">
+       Tempora quam aliquam hic? Et eum corrupti eaque consequuntur numquam doloribus vel quam illum iusto molestiae reiciendis alias eos enim aliquid quod harum tempore veritatis ea, tenetur fugit officia repudiandae.
+       Quae, maiores numquam repudiandae ipsam quos nihil obcaecati vel asperiores laboriosam ex soluta, et adipisci enim ducimus at. Beatae dolore iste cupiditate saepe magni quo neque voluptate perferendis repellendus doloribus.</p>
+      </p></div>
+       <a href="https://github.com/killy10o10/product_landingPage_SelmaKilly.git" target="_blank" id="tribute-link">Click Here To Read More On Our Bottles</a>
+      </div>
+      <div class="products" id="products"><img src="/img/product1.jpg" alt="product"><p>Product 1</p></div>
+      <div class="products"><p>Product 2</p></div>
+      <div class="products"><p>Product 3</p></div>
+      <div class="products"><p>Product 4</p></div>
+      <form method="post" action="https://www.freecodecamp.com/email-submit" class="container" id="form">
+        <div class="form-wrap">
+          <h1>Place Order</h1>
+          <p>It's afordable and only takes a minute</p>
+        
+        <div class="form-group">
+          <label for="full-name">Full Name</label>
+          <input type="text" name="firstName" id="first-name" required>
+        </div>
+        <div class="form-group">
+          <label for="quantity">Quantity (between 1 and 5)</label>
+          <input type="number" name="quantity" id="quantity" min="1" max="5">
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" placeholder="eg. selmakilly@gmail.com">
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="tel" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="follow pattern: 123-456-7890" required>
+        </div>
+        <button type="submit" class="btn" id="submit">Order</button>
+        <p class="disclaimer">By clicking the order button you proceed to order</p>
+        <div id="player"> </div>
+        </div>
+      
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
-    <p>Hello World</p>
     <script  src="js/index.js"></script>
+  </main>
+</form>
+<div class="clr"></div>
+<footer id="main-footer">
+  <p>Salma_Killy Microverse &copy; 2022, <a href="https://github.com/killy10o10/product_landingPage_SelmaKilly.git" target="_blank">Product Landing Page</p></a>
+</footer>
   </body>
 </html>
